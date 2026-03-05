@@ -1,0 +1,21 @@
+artifact_path: gbt_pipeline
+flavors:
+  python_function:
+    data: sparkml
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.spark
+    python_version: 3.12.2
+  spark:
+    code: null
+    model_class: pyspark.ml.pipeline.PipelineModel
+    model_data: sparkml
+    pyspark_version: 4.0.1
+mlflow_version: 3.10.0
+model_id: null
+model_size_bytes: 80988
+model_uuid: 9ee6086979544957a3299a0d82503d65
+prompts: null
+run_id: e5569f4e2be84ed2b9db39fa6b505b05
+utc_time_created: '2026-03-05 22:51:12.400770'
