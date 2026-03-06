@@ -1,0 +1,5 @@
+# MLflow run directory (writable local dir; avoid permission errors on all machines)
+mlflow_run/
+
+# Optional: uncomment if you also want to ignore the repo-root mlflow.db
+# mlflow.db
